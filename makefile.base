@@ -1,0 +1,6 @@
+JAVAC=javac
+%.class : %.java ; $(JAVAC) $*.java
+all:
+clean:
+	rm -f *.class
+

@@ -1,0 +1,77 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTION	circles/circle_list.java	/^    enum ACTION {$/;"	g	class:circle_list
+ADD	circles/circle_list.java	/^        ADD, MOVE, RESIZE, COLORIZE$/;"	e	enum:circle_list.ACTION	file:
+COLORIZE	circles/circle_list.java	/^        ADD, MOVE, RESIZE, COLORIZE$/;"	e	enum:circle_list.ACTION	file:
+JAR	makefile	/^JAR=circles.jar$/;"	m
+LONG_HOLD_MIN	circles/circle_list.java	/^    final static private long LONG_HOLD_MIN = 500;$/;"	f	class:circle_list	file:
+MOVE	circles/circle_list.java	/^        ADD, MOVE, RESIZE, COLORIZE$/;"	e	enum:circle_list.ACTION	file:
+OBJS	makefile	/^OBJS=circles\/circle.class circles\/circle_list.class circles\/circle_win.class$/;"	m
+RAD_MIN	circles/circle.java	/^    final static private double RAD_MIN = 20.0;$/;"	f	class:circle	file:
+RESIZE	circles/circle_list.java	/^        ADD, MOVE, RESIZE, COLORIZE$/;"	e	enum:circle_list.ACTION	file:
+TWOPI	circles/circle.java	/^    final static private double TWOPI = Math.PI * 2.0;$/;"	f	class:circle	file:
+action	circles/circle_list.java	/^    private ACTION action;$/;"	f	class:circle_list	file:
+action_t	circles/circle_list.java	/^    private long action_t;$/;"	f	class:circle_list	file:
+alphize	circles/circle.java	/^    public void alphize (double x, double y) {$/;"	m	class:circle
+c_list	circles/circle_win.java	/^    final private circle_list c_list = new circle_list ();$/;"	f	class:circle_win	file:
+circle	circles/circle.java	/^    public circle () {$/;"	m	class:circle
+circle	circles/circle.java	/^    public circle (double x, double y) {$/;"	m	class:circle
+circle	circles/circle.java	/^class circle {$/;"	c
+circle_active	circles/circle_list.java	/^    private circle circle_active = null;$/;"	f	class:circle_list	file:
+circle_list	circles/circle_list.java	/^class circle_list {$/;"	c
+circle_win	circles/circle_win.java	/^    public circle_win () {$/;"	m	class:circle_win
+circle_win	circles/circle_win.java	/^class circle_win extends Frame$/;"	c
+circles	circles/circle.java	/^package circles;$/;"	p
+circles	circles/circle_list.java	/^    final private LinkedList <circle> circles = new LinkedList <circle> ();$/;"	f	class:circle_list	file:
+circles	circles/circle_list.java	/^package circles;$/;"	p
+circles	circles/circle_win.java	/^package circles;$/;"	p
+classify	circles/circle_list.java	/^    private circle classify (double x, double y) {$/;"	m	class:circle_list	file:
+col_a	circles/circle.java	/^    public float col_r, col_g, col_b, col_a;$/;"	f	class:circle
+col_b	circles/circle.java	/^    public float col_r, col_g, col_b, col_a;$/;"	f	class:circle
+col_chan	circles/circle.java	/^    public int col_chan;$/;"	f	class:circle
+col_g	circles/circle.java	/^    public float col_r, col_g, col_b, col_a;$/;"	f	class:circle
+col_r	circles/circle.java	/^    public float col_r, col_g, col_b, col_a;$/;"	f	class:circle
+color	circles/circle.java	/^    private Color color;$/;"	f	class:circle	file:
+colorize	circles/circle.java	/^    public void colorize (double x, double y) {$/;"	m	class:circle
+dbg2	circles/circle_win.java	/^    private Graphics2D dbg2;$/;"	f	class:circle_win	file:
+dbimage	circles/circle_win.java	/^    private Image dbimage;$/;"	f	class:circle_win	file:
+diam_i	circles/circle.java	/^    public int diam_i;$/;"	f	class:circle
+dist	circles/circle.java	/^    public double dist (double x, double y) {$/;"	m	class:circle
+drag	circles/circle_list.java	/^    public void drag (double x, double y) {$/;"	m	class:circle_list
+draw	circles/circle.java	/^    public void draw (Graphics2D g2) {$/;"	m	class:circle
+init	circles/circle.java	/^    public void init (double x, double y) {$/;"	m	class:circle
+main	circles/circle_win.java	/^    public static void main (String[] args) {$/;"	m	class:circle_win
+mouseClicked	circles/circle_win.java	/^    public void mouseClicked (MouseEvent event) {$/;"	m	class:circle_win
+mouseDragged	circles/circle_win.java	/^    public void mouseDragged (MouseEvent event) {$/;"	m	class:circle_win
+mouseEntered	circles/circle_win.java	/^    public void mouseEntered (MouseEvent event) {$/;"	m	class:circle_win
+mouseExited	circles/circle_win.java	/^    public void mouseExited (MouseEvent event) {$/;"	m	class:circle_win
+mouseMoved	circles/circle_win.java	/^    public void mouseMoved (MouseEvent event) {$/;"	m	class:circle_win
+mousePressed	circles/circle_win.java	/^    public void mousePressed (MouseEvent event) {$/;"	m	class:circle_win
+mouseReleased	circles/circle_win.java	/^    public void mouseReleased (MouseEvent event) {$/;"	m	class:circle_win
+move_to	circles/circle.java	/^    public void move_to (double x, double y) {$/;"	m	class:circle
+paint	circles/circle_list.java	/^    public void paint (Graphics2D g2) {$/;"	m	class:circle_list
+paint	circles/circle_win.java	/^    public void paint (Graphics g) {$/;"	m	class:circle_win
+rad	circles/circle.java	/^    public double x, y, rad;$/;"	f	class:circle
+rad_core	circles/circle.java	/^    public double rad_core, rad_ext;$/;"	f	class:circle
+rad_ext	circles/circle.java	/^    public double rad_core, rad_ext;$/;"	f	class:circle
+release	circles/circle_list.java	/^    public void release () {$/;"	m	class:circle_list
+resize	circles/circle.java	/^    public void resize (double x, double y) {$/;"	m	class:circle
+serialVersionUID	circles/circle_win.java	/^    static final long serialVersionUID = 1L;$/;"	f	class:circle_win
+set_alpha	circles/circle.java	/^    public void set_alpha (float a) {$/;"	m	class:circle
+set_chan	circles/circle.java	/^    public void set_chan (int c) {$/;"	m	class:circle
+set_color	circles/circle.java	/^    public void set_color (float r, float g, float b) {$/;"	m	class:circle
+set_pos	circles/circle.java	/^    public void set_pos (double x, double y) {$/;"	m	class:circle
+set_rad	circles/circle.java	/^    public void set_rad (double rad) {$/;"	m	class:circle
+tap	circles/circle_list.java	/^    public void tap (double x, double y) {$/;"	m	class:circle_list
+tap_dbl	circles/circle_list.java	/^    public void tap_dbl (double x, double y) {$/;"	m	class:circle_list
+update	circles/circle_win.java	/^    public void update (Graphics g) {$/;"	m	class:circle_win
+win_bgcolor	circles/circle_win.java	/^    final private Color win_bgcolor = Color.black;$/;"	f	class:circle_win	file:
+win_h	circles/circle_win.java	/^    final private int win_h = 600;$/;"	f	class:circle_win	file:
+win_s	circles/circle_win.java	/^    final private String win_s = "circles";$/;"	f	class:circle_win	file:
+win_w	circles/circle_win.java	/^    final private int win_w = 800;$/;"	f	class:circle_win	file:
+x	circles/circle.java	/^    public double x, y, rad;$/;"	f	class:circle
+y	circles/circle.java	/^    public double x, y, rad;$/;"	f	class:circle
